@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Recepciones - ReTech Aplication</title>
+    <link rel="shortcut icon" href="../img/1LOGO.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header-principal" id="test">
+        <div class="logo-container">
+            <img src="../img/1LOGO.jpg" alt="Logo de la empresa" class="logo">
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html"><strong>Inicio</strong></a></li>
+                <li><a href="../index.html#ServicioRAEE"><strong>Servicio RAEE</strong></a></li>
+                <li><a href="../index.html#Nosotros"><strong>Nosotros</strong></a></li>
+                <li><a href="../index.html#blog"><strong>BLOG</strong></a></li>
+                <li><a href="../index.html#contacto"><strong>Contacto</strong></a></li>
+            </ul>
+        </nav>  
+    </header>
+
+    <div class="botones-accesibilidad">
+        <button id="aumentarFuente">A+</button>
+        <button id="disminuirFuente">A-</button>
+        <button id="contraste">🌙</button>
+    </div>
+
+    <main class="contenedor-recepciones">
+        <h1 class="titulo-ingreso">RECEPCIONES-ARTEFACTOS</h1>
+
+        <!--Recepcion Elementos -->
+        <section class="recepcion-elementos">
+            <div class="recepcion-card">
+                <h2>Recepción de Elementos</h2>
+                <p>En esta sección, se recepciona los elementos electrónicos que llegan a nuestras instalaciones.</p>
+            </div>
+        </section>
+        
+         <section class="tabla-recepciones">
+        <table class="tabla-datos">
+            <thead>
+                <tr>
+                    <th>Id_recepción</th>
+                    <th>Id_artefacto</th>
+                    <th>Fecha</th>
+                    <th>Id_Usuario</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <!-- datos dinámicos de las recepciones -->
+            </tbody>
+        </table>
+    </section>
+
+
+    </main>
+
+        <footer class="footer-principal">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="../img/1LOGO.jpg" alt="Retech Aplication">
+                </div>
+
+                <nav class="footer-nav">
+                    <ul>
+                        <li><a href="#">Politica de Privacidad</a></li>
+                        <li><a href="#">Terminos y Condiciones</a></li>
+                    </ul>
+                </nav>
+
+                <div class="footer-social">
+                    <a href="#" aria-label="Ir al perfil de Facebook">
+                        <img src="../img/facebook-fondo-negro.png" alt="Facebook">
+                    </a>
+                    <a href="#" aria-label="Ir al perfil de Instagram">
+                        <img src="../img/instagram-fondo-negro.png" alt="Instagram">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Retech Aplication.</p>
+                <p>Bogota D.C.-Colombia</p>
+            </div>
+        </footer>
+
+        <script src="./js/modal.js"></script>
+        <script src="../js/accesibility.js"></script>
+</body>
+</html>
